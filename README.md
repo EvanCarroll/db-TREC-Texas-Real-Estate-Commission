@@ -30,3 +30,8 @@ Thus...
 		AND addr_physical_city = 'KINGWOOD';
 
 And, I can go broker shopping.
+
+Instructions
+---
+
+Inside this repo, you'll find a script called `init.sh`. Running that script should download and convert the raw data to a format for ingestion. This scripts calls `runall.sql` which handles the creation of the schema and loading the data into PostgreSQL.
