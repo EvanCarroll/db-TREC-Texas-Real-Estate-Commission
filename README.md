@@ -35,3 +35,11 @@ Instructions
 ---
 
 Inside this repo, you'll find a script called `init.sh`. Running that script should download and convert the raw data to a format for ingestion. This scripts calls `runall.sql` which handles the creation of the schema and loading the data into PostgreSQL.
+
+Requirements
+---
+
+* PostgreSQL
+* iconv (to convert from CP850 to UTF-8)
+* sed to remove \x00's from the feed.
+* curl to download the raw data files.
