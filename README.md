@@ -43,3 +43,9 @@ Requirements
 * iconv (to convert from CP850 to UTF-8)
 * sed to remove \x00's from the feed.
 * curl to download the raw data files.
+
+Fund work and integration
+---
+
+Want to use this technology for an application or need help developing an idea,
+integration or further work with the data set? Shoot me an email for a quote.
