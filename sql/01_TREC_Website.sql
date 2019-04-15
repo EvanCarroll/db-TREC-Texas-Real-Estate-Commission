@@ -48,11 +48,11 @@ CREATE TABLE requirement_status (
 	requirement_status_code         smallint PRIMARY KEY,
 	requirement_status_description  text
 );
-COMMENT ON TABLE requirement_status IS 'Originally Education Status (CE) and MCE Status -- made it more general (from website)';
 INSERT INTO requirement_status VALUES
 	( 0, 'No Requirement' ),
 	( 1, 'Outstanding' ),
 	( 2, 'Met' );
+COMMENT ON TABLE requirement_status IS 'Originally Education Status (CE) and MCE Status -- made it more general (from website)';
 
 ---
 

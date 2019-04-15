@@ -1,5 +1,5 @@
 CREATE TABLE license_holders (
-  license_type_code           trec.license_type_code REFERENCES license_type,
+  license_type_code           license_type_code REFERENCES license_type,
   license_number              text, -- not unique and has hyphon,
   full_name                   public.citext,
   suffix                      text,

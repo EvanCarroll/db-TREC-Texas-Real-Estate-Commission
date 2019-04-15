@@ -1,5 +1,3 @@
-SET SEARCH_PATH=trec;
-DROP VIEW IF EXISTS view_all_licenses;
 CREATE OR REPLACE VIEW view_all_licenses AS
 WITH county AS ( SELECT county_code,county_name FROM county )
 SELECT lh.license_number
